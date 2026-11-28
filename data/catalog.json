@@ -13701,6 +13701,169 @@
       ]
     },
     {
+      "id": "cuhk-architecture-rpg-2027",
+      "universityId": "cuhk",
+      "name": "建筑学研究学位",
+      "degrees": [
+        "MPhil",
+        "PhD"
+      ],
+      "cycle": "2027/28",
+      "scope": "港中文香港本部社会科学学院建筑学学部， 2027/28 研究学位。",
+      "contact": {
+        "status": "unknown",
+        "text": "项目页未说明申请前必须联系导师，可按研究方向查看学部或学系的进一步安排。",
+        "sourceIds": [
+          "cuhk-architecture-gs-20261128"
+        ]
+      },
+      "selection": {
+        "text": "按研究院研究学位流程提交；建筑学院的完整材料另核。",
+        "sourceIds": [
+          "cuhk-architecture-gs-20261128"
+        ]
+      },
+      "deadlines": [
+        {
+          "label": "常规主轮截止：2026-12-01（官网未说明具体时间）",
+          "date": "2026-12-01",
+          "at": null,
+          "degree": null,
+          "route": "常规申请",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "cuhk-architecture-gs-20261128"
+          ]
+        },
+        {
+          "label": "清理轮截止，须仍有学额：2027-03-31（官网未说明具体时间）",
+          "date": "2027-03-31",
+          "at": null,
+          "degree": null,
+          "route": "常规申请",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "cuhk-architecture-gs-20261128"
+          ]
+        },
+        {
+          "label": "HKPFS 向 RGC 初步申请：2026-12-01 12:00（UTC+8）",
+          "date": "2026-12-01",
+          "at": "2026-12-01T12:00:00+08:00",
+          "degree": "PhD",
+          "route": "HKPFS",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "cuhk-architecture-gs-20261128"
+          ]
+        },
+        {
+          "label": "HKPFS 向港中文提交完整申请：2026-12-01 23:59（UTC+8）",
+          "date": "2026-12-01",
+          "at": "2026-12-01T23:59:00+08:00",
+          "degree": "PhD",
+          "route": "HKPFS",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "cuhk-architecture-gs-20261128"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "cuhk-architecture-gs-20261128",
+        "cuhk-gs-requirements",
+        "cuhk-gs-documents",
+        "cuhk-gs-fees"
+      ],
+      "evidenceNote": "普通轮次仅注明日期。博士奖学金的两个具体时间只适用于对应奖学金申请。",
+      "entryUrl": "https://www.gs.cuhk.edu.hk/programmes/social-science/mphil-phd-architecture",
+      "requirements": [
+        {
+          "label": "MPhil 学历",
+          "degrees": [
+            "MPhil"
+          ],
+          "text": "在研究院通用资格之外，项目页要求相关领域学士学位或同等资格。",
+          "action": "核对学历和本项目对相关专业的要求。",
+          "sourceIds": [
+            "cuhk-gs-requirements",
+            "cuhk-architecture-gs-20261128"
+          ]
+        },
+        {
+          "label": "PhD 学历",
+          "degrees": [
+            "PhD"
+          ],
+          "text": "项目页要求相关领域一等或二等学士学位或同等资格。持相关硕士或同等资格者，获录取后可申请豁免部分要求。",
+          "action": "核对博士路线的学历资格，再查项目对相关专业的要求。",
+          "sourceIds": [
+            "cuhk-gs-requirements",
+            "cuhk-architecture-gs-20261128"
+          ]
+        },
+        {
+          "label": "本项目学科背景",
+          "text": "学校项目页把申请材料指向建筑学院。此次未能读取学院材料页，作品集、研究计划格式及联系导师安排待核。",
+          "action": "看项目官网的先修与申请要求。",
+          "sourceIds": [
+            "cuhk-architecture-gs-20261128"
+          ]
+        },
+        {
+          "label": "英语及申请材料",
+          "text": "研究院列英语授课学历等途径，另有 IELTS Academic 6.5、TOEFL 79/120 或 4.5/6。准备学历和成绩文件；MPhil 两份推荐、PhD 三份。",
+          "action": "打开研究院当期材料和英语要求，按学位准备。",
+          "sourceIds": [
+            "cuhk-gs-requirements",
+            "cuhk-gs-documents"
+          ]
+        }
+      ],
+      "finances": [
+        {
+          "id": "cuhk-architecture-rpg-2027-tuition",
+          "kind": "tuition",
+          "label": "2027/28 学费",
+          "text": "项目页列学费港币 49,500，适用于所列修读模式。",
+          "sourceIds": [
+            "cuhk-architecture-gs-20261128"
+          ],
+          "rates": [
+            {
+              "value": 49500,
+              "currency": "HKD",
+              "unit": "year",
+              "cycle": "2027/28",
+              "basis": "academic_year",
+              "condition": "2027/28 学年"
+            }
+          ],
+          "action": "确认学习模式和实际费用。"
+        },
+        {
+          "id": "cuhk-architecture-rpg-2027-application",
+          "kind": "application_fee",
+          "label": "网申申请费",
+          "text": "研究院费用页列每项目港币 500，金额行未注明学年。",
+          "sourceIds": [
+            "cuhk-gs-fees"
+          ],
+          "rates": [
+            {
+              "value": 500,
+              "currency": "HKD",
+              "unit": "application",
+              "cycle": null,
+              "basis": "page_reference",
+              "condition": "按网申系统确认"
+            }
+          ],
+          "action": "核对网申缴费金额。"
+        }
+      ]
+    },
+    {
       "id": "hkust-mech-rpg-2027",
       "universityId": "hkust",
       "name": "机械工程研究学位",
@@ -282659,6 +282822,26 @@
       ]
     },
     {
+      "id": "cuhk-architecture-gs-20261128",
+      "url": "https://www.gs.cuhk.edu.hk/programmes/social-science/mphil-phd-architecture",
+      "title": "港中文研究院 · 建筑学研究型硕博",
+      "checkedAt": "2026-11-28",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "研究院列香港本部建筑学两学位、2027/28项目学费、常规截止日与博士奖学金申请时间。",
+      "claims": [
+        "主轮至2026-12-01，清理轮至2027-03-31并须仍有学额。",
+        "2027/28学费为49,500港元，适用于所列修读模式。",
+        "建筑学院材料页另列，实际访问返回403。"
+      ],
+      "knownIssues": [
+        "只记录研究院所示本项目。常规轮在项目页只标日期。"
+      ],
+      "discoveredLinks": [
+        "https://www.arch.cuhk.edu.hk/programmes/degrees/mphil-phd-in-architecture"
+      ]
+    },
+    {
       "id": "hkustgz-dsa-adjunct-haodi-zhang-research-20261124",
       "url": "https://aisc.szu.edu.cn/info/1060/1275.htm",
       "title": "Haodi Zhang / 张昊迪 · 任职单位研究档案",
@@ -368858,5 +369041,5 @@
   "facultyAliases": {
     "cuhksz-sds-zhengrui-jiang": "cuhksz-sme-003ea2dac10457"
   },
-  "snapshotId": "sha256:3a13fe3018b3adde7bf3c873738e26782f42733ea6b5ad14e46d60152ce13241"
+  "snapshotId": "sha256:a93cd9f0ad14e722298d3ed898ed42a9d7ab3600cc026ec6d9078a74024f3ef9"
 }

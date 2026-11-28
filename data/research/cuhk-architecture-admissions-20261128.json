@@ -1,0 +1,33 @@
+{
+  "programmes": [
+    {
+      "key": "architecture",
+      "name": "建筑学研究学位",
+      "scope": "港中文香港本部社会科学学院建筑学学部，",
+      "selection": "按研究院研究学位流程提交；建筑学院的完整材料另核。",
+      "mphilQualifications": "在研究院通用资格之外，项目页要求相关领域学士学位或同等资格。",
+      "phdQualifications": "项目页要求相关领域一等或二等学士学位或同等资格。持相关硕士或同等资格者，获录取后可申请豁免部分要求。",
+      "background": "学校项目页把申请材料指向建筑学院。此次未能读取学院材料页，作品集、研究计划格式及联系导师安排待核。",
+      "source": {
+        "id": "cuhk-architecture-gs-20261128",
+        "url": "https://www.gs.cuhk.edu.hk/programmes/social-science/mphil-phd-architecture",
+        "title": "港中文研究院 · 建筑学研究型硕博",
+        "checkedAt": "2026-11-28",
+        "readMethod": "web_tool_actual_body",
+        "evidenceLevel": "official_verified_page_scoped",
+        "scope": "研究院列香港本部建筑学两学位、2027/28项目学费、常规截止日与博士奖学金申请时间。",
+        "claims": [
+          "主轮至2026-12-01，清理轮至2027-03-31并须仍有学额。",
+          "2027/28学费为49,500港元，适用于所列修读模式。",
+          "建筑学院材料页另列，实际访问返回403。"
+        ],
+        "knownIssues": [
+          "只记录研究院所示本项目。常规轮在项目页只标日期。"
+        ],
+        "discoveredLinks": [
+          "https://www.arch.cuhk.edu.hk/programmes/degrees/mphil-phd-in-architecture"
+        ]
+      }
+    }
+  ]
+}
