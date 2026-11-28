@@ -86796,6 +86796,160 @@
       }
     },
     {
+      "id": "polyu-cmi-hung-lin-chi",
+      "name": "Hung-Lin Chi",
+      "universityId": "polyu",
+      "department": "Department of Construction Management and Intelligence",
+      "role": "副系主任（研究）、副教授",
+      "directoryRole": "副系主任（研究）、副教授",
+      "profileUrl": "https://www.polyu.edu.hk/cmi/people/academic-staff/dr-hung-lin-chi/",
+      "topics": [
+        "土木与机械工程"
+      ],
+      "researchKeywords": [
+        "施工自动化",
+        "施工感知与追踪",
+        "施工可视化",
+        "数字孪生",
+        "虚拟与增强现实",
+        "Construction automation",
+        "Construction sensing and tracking",
+        "Construction visualization",
+        "Digital twins",
+        "Virtual and augmented reality"
+      ],
+      "summary": "研究施工自动化、感知与追踪、可视化，以及用于施工检测和基础设施监测的数字孪生。",
+      "sourceIds": [
+        "polyu-cmi-academic-directory-20261128",
+        "polyu-cmi-hung-lin-chi-profile-20261128",
+        "polyu-cmi-hung-lin-chi-portal-20261128"
+      ],
+      "keywordSourceIds": [
+        "polyu-cmi-hung-lin-chi-profile-20261128",
+        "polyu-cmi-hung-lin-chi-portal-20261128"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/hung-lin-chi/",
+          "label": "港理工研究门户",
+          "parentSourceId": "polyu-cmi-hung-lin-chi-profile-20261128",
+          "sourceId": "polyu-cmi-hung-lin-chi-portal-20261128",
+          "bodyStatus": "body_read",
+          "readNote": "已读研究兴趣。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募和名额待核",
+        "sourceIds": [
+          "polyu-cmi-academic-directory-20261128"
+        ]
+      }
+    },
+    {
+      "id": "polyu-cmi-yi-sun",
+      "name": "Yi Sun",
+      "universityId": "polyu",
+      "department": "Department of Construction Management and Intelligence",
+      "role": "副系主任（合作）、副教授",
+      "directoryRole": "副系主任（合作）、副教授",
+      "profileUrl": "https://www.polyu.edu.hk/cmi/people/academic-staff/dr-sun-yi/",
+      "topics": [
+        "土木与机械工程"
+      ],
+      "researchKeywords": [
+        "老年友好城市",
+        "数字健康",
+        "城乡规划",
+        "城市治理",
+        "土地开发",
+        "Age-friendly cities",
+        "Digital health",
+        "Urban and regional planning",
+        "Urban governance",
+        "Land development"
+      ],
+      "summary": "研究老年友好型城市和社区、数字健康，以及城乡规划与土地开发。",
+      "sourceIds": [
+        "polyu-cmi-academic-directory-20261128",
+        "polyu-cmi-yi-sun-profile-20261128",
+        "polyu-cmi-yi-sun-portal-20261128"
+      ],
+      "keywordSourceIds": [
+        "polyu-cmi-yi-sun-profile-20261128",
+        "polyu-cmi-yi-sun-portal-20261128"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/yi-sun/",
+          "label": "港理工研究门户",
+          "parentSourceId": "polyu-cmi-yi-sun-profile-20261128",
+          "sourceId": "polyu-cmi-yi-sun-portal-20261128",
+          "bodyStatus": "body_read",
+          "readNote": "已读研究兴趣。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募和名额待核",
+        "sourceIds": [
+          "polyu-cmi-academic-directory-20261128"
+        ]
+      }
+    },
+    {
+      "id": "polyu-cmi-esther-yung",
+      "name": "Esther Hiu Kwan Yung",
+      "universityId": "polyu",
+      "department": "Department of Construction Management and Intelligence",
+      "role": "副系主任（教学）、副教授",
+      "directoryRole": "副系主任（教学）、副教授",
+      "profileUrl": "https://www.polyu.edu.hk/cmi/people/academic-staff/dr-esther-hk-yung/",
+      "topics": [
+        "土木与机械工程"
+      ],
+      "researchKeywords": [
+        "建成遗产保护",
+        "城市规划与开发",
+        "城市可持续性",
+        "老龄化与城市环境",
+        "Built heritage conservation",
+        "Urban planning and development",
+        "Urban sustainability",
+        "Ageing and urban environment"
+      ],
+      "summary": "研究建成遗产保护、城市规划与可持续性，以及老龄化与城市环境。",
+      "sourceIds": [
+        "polyu-cmi-academic-directory-20261128",
+        "polyu-cmi-esther-yung-profile-20261128",
+        "polyu-cmi-esther-yung-portal-20261128"
+      ],
+      "keywordSourceIds": [
+        "polyu-cmi-esther-yung-profile-20261128",
+        "polyu-cmi-esther-yung-portal-20261128"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/hiu-kwan-yung/",
+          "label": "港理工研究门户",
+          "parentSourceId": "polyu-cmi-esther-yung-profile-20261128",
+          "sourceId": "polyu-cmi-esther-yung-portal-20261128",
+          "bodyStatus": "body_read",
+          "readNote": "已读研究兴趣。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募和名额待核",
+        "sourceIds": [
+          "polyu-cmi-academic-directory-20261128"
+        ]
+      }
+    },
+    {
       "id": "polyu-me-su-zhong-qing-prof",
       "name": "Prof. SU Zhongqing 蘇眾慶",
       "universityId": "polyu",
@@ -241589,6 +241743,132 @@
       "readReceiptSha256": "c20a28f029b239693b401c1839a1005710bf5d31ceb65794b17c055b5ebbc269"
     },
     {
+      "id": "polyu-cmi-academic-directory-20261128",
+      "url": "https://www.polyu.edu.hk/cmi/people/academic-staff/",
+      "title": "港理工建造管理及智能学系 · 学术人员目录",
+      "checkedAt": "2026-11-28",
+      "readMethod": "web_reader",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "官网学术人员页的职务栏目及本批三位副系主任。",
+      "claims": [
+        "官网按系主任及讲座教授、杰出研究教授、副系主任、各级教授和研究助理教授列出学术人员。",
+        "副系主任分别负责研究、合作及教学。"
+      ],
+      "knownIssues": [
+        "兼任、实践教授、研究及支援人员有各自入口。当前逐人核读进度仅覆盖本批，指导资格、招募及余位待核。"
+      ],
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "2ed56394852b8b149c6f2d1a21fce7726e4dfcd9bb9d2c39b7cae8f832f75a09"
+    },
+    {
+      "id": "polyu-cmi-former-name-20261128",
+      "url": "https://www.polyu.edu.hk/cmi/people/academic-staff/cr-dr-daniel-wm-chan/",
+      "title": "Daniel W. M. Chan · 学系现名及旧名",
+      "checkedAt": "2026-11-28",
+      "readMethod": "web_reader",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "港理工建造管理及智能学系官网个人简历中的学系名称沿革。",
+      "claims": [
+        "正文说明 2026 年 7 月 1 日前名称为 Department of Building and Real Estate。"
+      ],
+      "knownIssues": [
+        "该页另出现专业博士及授课型研究生项目职务。"
+      ],
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "2ed56394852b8b149c6f2d1a21fce7726e4dfcd9bb9d2c39b7cae8f832f75a09"
+    },
+    {
+      "id": "polyu-cmi-hung-lin-chi-profile-20261128",
+      "url": "https://www.polyu.edu.hk/cmi/people/academic-staff/dr-hung-lin-chi/",
+      "title": "Hung-Lin Chi · 港理工学系个人页",
+      "checkedAt": "2026-11-28",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "本人现行职务与研究方向。",
+      "claims": [
+        "研究施工自动化、感知与追踪、可视化，以及用于施工检测和基础设施监测的数字孪生。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/hung-lin-chi/"
+      ]
+    },
+    {
+      "id": "polyu-cmi-hung-lin-chi-portal-20261128",
+      "url": "https://research.polyu.edu.hk/en/persons/hung-lin-chi/",
+      "title": "Hung-Lin Chi · 港理工研究门户",
+      "checkedAt": "2026-11-28",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "个人专业档案公开的研究兴趣。",
+      "claims": [
+        "校级研究门户列出施工自动化、施工感知与追踪、施工可视化等研究主题。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-cmi-yi-sun-profile-20261128",
+      "url": "https://www.polyu.edu.hk/cmi/people/academic-staff/dr-sun-yi/",
+      "title": "Yi Sun · 港理工学系个人页",
+      "checkedAt": "2026-11-28",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "本人现行职务与研究方向。",
+      "claims": [
+        "研究老年友好型城市和社区、数字健康，以及城乡规划与土地开发。"
+      ],
+      "knownIssues": [
+        "官网个人简介正文保留旧系名。当前任职依据现行目录和校级研究门户页首。"
+      ],
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/yi-sun/"
+      ]
+    },
+    {
+      "id": "polyu-cmi-yi-sun-portal-20261128",
+      "url": "https://research.polyu.edu.hk/en/persons/yi-sun/",
+      "title": "Yi Sun · 港理工研究门户",
+      "checkedAt": "2026-11-28",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "个人专业档案公开的研究兴趣。",
+      "claims": [
+        "校级研究门户列出老年友好城市、数字健康、城乡规划等研究主题。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-cmi-esther-yung-profile-20261128",
+      "url": "https://www.polyu.edu.hk/cmi/people/academic-staff/dr-esther-hk-yung/",
+      "title": "Esther Hiu Kwan Yung · 港理工学系个人页",
+      "checkedAt": "2026-11-28",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "本人现行职务与研究方向。",
+      "claims": [
+        "研究建成遗产保护、城市规划与可持续性，以及老龄化与城市环境。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/hiu-kwan-yung/"
+      ]
+    },
+    {
+      "id": "polyu-cmi-esther-yung-portal-20261128",
+      "url": "https://research.polyu.edu.hk/en/persons/hiu-kwan-yung/",
+      "title": "Esther Hiu Kwan Yung · 港理工研究门户",
+      "checkedAt": "2026-11-28",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "个人专业档案公开的研究兴趣。",
+      "claims": [
+        "校级研究门户列出建成遗产保护、城市规划与开发、城市可持续性等研究主题。"
+      ],
+      "knownIssues": []
+    },
+    {
       "id": "cityu-annual-report-2024-25-colleges-20261106",
       "url": "https://www.cityu.edu.hk/annual-report/2024-25/assets/pdf/CityUAR_2025.pdf",
       "title": "港城大 2024/25 年报：计算学院与生物医学学院",
@@ -347359,14 +347639,30 @@
             "status": "listed_children_matched",
             "sourceIds": [
               "college-batch-polyu-3-20261029",
-              "college-batch-polyu-construction-20261029"
+              "college-batch-polyu-construction-20261029",
+              "polyu-cmi-academic-directory-20261128",
+              "polyu-cmi-former-name-20261128"
             ],
             "summary": "正式架构页列五个学系，保留建筑、建筑环境及能源、土木及环境、建造管理及智能、土地测量及地理空间科学的当前名称。新旧网址分别记录，不猜重定向。",
             "organizationComplete": false,
             "facultyComplete": false,
             "listedChildren": 5
           },
-          "relatedNavigationGroups": []
+          "relatedNavigationGroups": [],
+          "reviewedNavigation": [
+            {
+              "label": "建造管理及智能学系学术人员",
+              "sourceId": "polyu-cmi-academic-directory-20261128",
+              "kind": "staff_directory",
+              "scope": "查看官网职务栏目及个人入口。指导资格、当前招募和名额以院系或网申说明为准。"
+            },
+            {
+              "label": "原系名及更名日期",
+              "sourceId": "polyu-cmi-former-name-20261128",
+              "kind": "college_scope",
+              "scope": "2026 年 7 月 1 日前为建筑及房地产学系。"
+            }
+          ]
         },
         {
           "id": "polyu-4",
@@ -369725,5 +370021,5 @@
   "facultyAliases": {
     "cuhksz-sds-zhengrui-jiang": "cuhksz-sme-003ea2dac10457"
   },
-  "snapshotId": "sha256:817c4bcb8ecfdec805b95c732447bbea7a46ab9bd67280ac0c4fba2ce1966650"
+  "snapshotId": "sha256:856c330f5c3b7fe3a92dfd77d57841fc900d1ca1f7a87ffa7acbb81cbd31304f"
 }
