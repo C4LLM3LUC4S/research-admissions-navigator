@@ -1,11 +1,11 @@
 {
   "status": "passed",
-  "checkedDate": "2026-11-28",
+  "checkedDate": "2026-11-29",
   "counts": {
     "universities": 7,
     "programs": 107,
-    "faculty": 2614,
-    "sources": 5100,
+    "faculty": 2623,
+    "sources": 5118,
     "funding": 1,
     "degreeRoutes": 181,
     "facultyByUniversity": {
@@ -13,11 +13,11 @@
       "cuhk": 313,
       "hkust": 536,
       "hkustgz": 241,
-      "polyu": 594,
+      "polyu": 603,
       "cityu": 153,
       "cuhksz": 398
     },
-    "unknownRecruitment": 2605,
+    "unknownRecruitment": 2614,
     "dateOnlyDeadlines": 126,
     "programsWithRequirements": 106,
     "requirementItems": 414,

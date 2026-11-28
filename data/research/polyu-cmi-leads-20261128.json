@@ -541,6 +541,279 @@
         "校级研究档案提供同一人员的专业记录。"
       ],
       "knownIssues": []
+    },
+    {
+      "checkedAt": "2026-11-29",
+      "evidenceLevel": "official_verified_page_scoped",
+      "readMethod": "web_tool_actual_body",
+      "id": "polyu-cmi-yuting-hou-profile-20261129",
+      "url": "https://www.polyu.edu.hk/cmi/people/academic-staff/dr-hou-yuting/",
+      "title": "Yuting Hou · 港理工学系个人页",
+      "scope": "学系学术人员目录与个人研究概况。",
+      "claims": [
+        "研究包括交通与土地利用、交通规划、空间分析。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/yuting-hou/"
+      ]
+    },
+    {
+      "checkedAt": "2026-11-29",
+      "evidenceLevel": "official_verified_page_scoped",
+      "readMethod": "web_tool_actual_body",
+      "id": "polyu-cmi-yuting-hou-portal-20261129",
+      "url": "https://research.polyu.edu.hk/en/persons/yuting-hou/",
+      "title": "Yuting Hou · 港理工研究门户",
+      "scope": "学系个人页列出的校级研究档案链接。",
+      "claims": [
+        "已查看校级个人档案；任职以学系当前名录为准。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "checkedAt": "2026-11-29",
+      "evidenceLevel": "official_verified_page_scoped",
+      "readMethod": "web_tool_actual_body",
+      "id": "polyu-cmi-michael-sing-profile-20261129",
+      "url": "https://www.polyu.edu.hk/cmi/people/academic-staff/dr-sing-chun-pong-michael/",
+      "title": "Michael C. P. Sing · 港理工学系个人页",
+      "scope": "学系学术人员目录与个人研究概况。",
+      "claims": [
+        "研究包括基础设施预测、施工劳动力规划、老化建筑评估。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/chun-pong-sing-2/",
+        "https://michaelcpsing.github.io/"
+      ]
+    },
+    {
+      "checkedAt": "2026-11-29",
+      "evidenceLevel": "official_verified_page_scoped",
+      "readMethod": "web_tool_actual_body",
+      "id": "polyu-cmi-michael-sing-portal-20261129",
+      "url": "https://research.polyu.edu.hk/en/persons/chun-pong-sing-2/",
+      "title": "Michael C. P. Sing · 港理工研究门户",
+      "scope": "学系个人页列出的校级研究档案链接。",
+      "claims": [
+        "已查看校级个人档案；任职以学系当前名录为准。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-cmi-michael-sing-personal-20261129",
+      "url": "https://michaelcpsing.github.io/",
+      "title": "Michael C. P. Sing · 个人研究主页",
+      "checkedAt": "2026-11-29",
+      "scope": "由学系个人页列出的个人主页研究正文。",
+      "claims": [
+        "已读基础设施预测与老化住宅评估的公开说明。"
+      ],
+      "knownIssues": [],
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "c3b64d011fa41ffedad2b75ee5eeda3814f8ef32b7a18cef1d0d9d9a52a43de3",
+      "parentSourceId": "polyu-cmi-michael-sing-profile-20261129",
+      "originalUrl": "https://michaelcpsing.github.io/",
+      "retrievedUrl": "https://michaelcpsing.github.io/"
+    },
+    {
+      "checkedAt": "2026-11-29",
+      "evidenceLevel": "official_verified_page_scoped",
+      "readMethod": "web_tool_actual_body",
+      "id": "polyu-cmi-tanya-tan-profile-20261129",
+      "url": "https://www.polyu.edu.hk/cmi/people/academic-staff/dr-tanya-zheng-tan/",
+      "title": "Tanya Zheng Tan · 港理工学系个人页",
+      "scope": "学系学术人员目录与个人研究概况。",
+      "claims": [
+        "研究包括可持续城市规划、室外热舒适、老年友好城市。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/zheng-tan/",
+        "https://www.lemonlab.me/"
+      ]
+    },
+    {
+      "checkedAt": "2026-11-29",
+      "evidenceLevel": "official_verified_page_scoped",
+      "readMethod": "web_tool_actual_body",
+      "id": "polyu-cmi-tanya-tan-portal-20261129",
+      "url": "https://research.polyu.edu.hk/en/persons/zheng-tan/",
+      "title": "Tanya Zheng Tan · 港理工研究门户",
+      "scope": "学系个人页列出的校级研究档案链接。",
+      "claims": [
+        "已查看校级个人档案；任职以学系当前名录为准。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "checkedAt": "2026-11-29",
+      "evidenceLevel": "official_verified_page_scoped",
+      "readMethod": "web_tool_actual_body",
+      "id": "polyu-cmi-xingyu-tao-profile-20261129",
+      "url": "https://www.polyu.edu.hk/cmi/people/academic-staff/prof-tao-xingyu/",
+      "title": "Xingyu Tao · 港理工学系个人页",
+      "scope": "学系学术人员目录与个人研究概况。",
+      "claims": [
+        "研究包括建筑信息模型、施工机器人、人机协作。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/xingyu-tao/"
+      ]
+    },
+    {
+      "checkedAt": "2026-11-29",
+      "evidenceLevel": "official_verified_page_scoped",
+      "readMethod": "web_tool_actual_body",
+      "id": "polyu-cmi-xingyu-tao-portal-20261129",
+      "url": "https://research.polyu.edu.hk/en/persons/xingyu-tao/",
+      "title": "Xingyu Tao · 港理工研究门户",
+      "scope": "学系个人页列出的校级研究档案链接。",
+      "claims": [
+        "已查看校级个人档案；任职以学系当前名录为准。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "checkedAt": "2026-11-29",
+      "evidenceLevel": "official_verified_page_scoped",
+      "readMethod": "web_tool_actual_body",
+      "id": "polyu-cmi-yue-teng-profile-20261129",
+      "url": "https://www.polyu.edu.hk/cmi/people/academic-staff/dr-teng-yue/",
+      "title": "Yue Teng · 港理工学系个人页",
+      "scope": "学系学术人员目录与个人研究概况。",
+      "claims": [
+        "研究包括建筑碳管理、预制建造、组装合成建筑。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/yue-teng/",
+        "https://polyucmi.github.io/teng-web/index.html"
+      ]
+    },
+    {
+      "checkedAt": "2026-11-29",
+      "evidenceLevel": "official_verified_page_scoped",
+      "readMethod": "web_tool_actual_body",
+      "id": "polyu-cmi-yue-teng-portal-20261129",
+      "url": "https://research.polyu.edu.hk/en/persons/yue-teng/",
+      "title": "Yue Teng · 港理工研究门户",
+      "scope": "学系个人页列出的校级研究档案链接。",
+      "claims": [
+        "已查看校级个人档案；任职以学系当前名录为准。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-cmi-yue-teng-personal-20261129",
+      "url": "https://polyucmi.github.io/teng-web/index.html",
+      "title": "Yue Teng · 个人研究主页",
+      "checkedAt": "2026-11-29",
+      "scope": "由学系个人页列出的个人主页研究正文。",
+      "claims": [
+        "已读建造过程碳管理、建造工业化与项目示例。"
+      ],
+      "knownIssues": [],
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "c3b64d011fa41ffedad2b75ee5eeda3814f8ef32b7a18cef1d0d9d9a52a43de3",
+      "parentSourceId": "polyu-cmi-yue-teng-profile-20261129",
+      "originalUrl": "https://polyucmi.github.io/teng-web/index.html",
+      "retrievedUrl": "https://polyucmi.github.io/teng-web/index.html"
+    },
+    {
+      "checkedAt": "2026-11-29",
+      "evidenceLevel": "official_verified_page_scoped",
+      "readMethod": "web_tool_actual_body",
+      "id": "polyu-cmi-yiwei-weng-profile-20261129",
+      "url": "https://www.polyu.edu.hk/cmi/people/academic-staff/dr-weng-yiwei/",
+      "title": "Yiwei Weng · 港理工学系个人页",
+      "scope": "学系学术人员目录与个人研究概况。",
+      "claims": [
+        "研究包括施工增材制造、先进建造材料、自主施工机器人。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/yiwei-weng/",
+        "https://wengyiwei.github.io/"
+      ]
+    },
+    {
+      "checkedAt": "2026-11-29",
+      "evidenceLevel": "official_verified_page_scoped",
+      "readMethod": "web_tool_actual_body",
+      "id": "polyu-cmi-yiwei-weng-portal-20261129",
+      "url": "https://research.polyu.edu.hk/en/persons/yiwei-weng/",
+      "title": "Yiwei Weng · 港理工研究门户",
+      "scope": "学系个人页列出的校级研究档案链接。",
+      "claims": [
+        "已查看校级个人档案；任职以学系当前名录为准。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "checkedAt": "2026-11-29",
+      "evidenceLevel": "official_verified_page_scoped",
+      "readMethod": "web_tool_actual_body",
+      "id": "polyu-cmi-kelvin-heung-profile-20261129",
+      "url": "https://www.polyu.edu.hk/cmi/people/academic-staff/dr-heung-holam-kelvin/",
+      "title": "Kelvin Holam Heung · 港理工学系个人页",
+      "scope": "学系学术人员目录与个人研究概况。",
+      "claims": [
+        "研究包括可穿戴康复机器人、远程医疗、人机交互建模。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "checkedAt": "2026-11-29",
+      "evidenceLevel": "official_verified_page_scoped",
+      "readMethod": "web_tool_actual_body",
+      "id": "polyu-cmi-jie-ma-profile-20261129",
+      "url": "https://www.polyu.edu.hk/cmi/people/academic-staff/dr-ma-jie/",
+      "title": "Jie Ma · 港理工学系个人页",
+      "scope": "学系学术人员目录与个人研究概况。",
+      "claims": [
+        "研究包括可穿戴感知、施工职业健康与安全、施工机器人。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "checkedAt": "2026-11-29",
+      "evidenceLevel": "official_verified_page_scoped",
+      "readMethod": "web_tool_actual_body",
+      "id": "polyu-cmi-abdul-hannan-qureshi-profile-20261129",
+      "url": "https://www.polyu.edu.hk/cmi/people/academic-staff/dr-abdul-hannan-qureshi/",
+      "title": "Abdul Hannan Qureshi · 港理工学系个人页",
+      "scope": "学系学术人员目录与个人研究概况。",
+      "claims": [
+        "研究包括施工过程监测、无损检测、基础设施与资产管理。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/abdul-hannan-qureshi/"
+      ]
+    },
+    {
+      "checkedAt": "2026-11-29",
+      "evidenceLevel": "official_verified_page_scoped",
+      "readMethod": "web_tool_actual_body",
+      "id": "polyu-cmi-abdul-hannan-qureshi-portal-20261129",
+      "url": "https://research.polyu.edu.hk/en/persons/abdul-hannan-qureshi/",
+      "title": "Abdul Hannan Qureshi · 港理工研究门户",
+      "scope": "学系个人页列出的校级研究档案链接。",
+      "claims": [
+        "已查看校级个人档案；任职以学系当前名录为准。"
+      ],
+      "knownIssues": []
     }
   ],
   "organizationSourceIds": [
@@ -1331,6 +1604,441 @@
           "sourceId": "polyu-cmi-wen-yi-portal-20261128",
           "bodyStatus": "body_read",
           "readNote": "已读个人研究档案。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募和名额待核",
+        "sourceIds": [
+          "polyu-cmi-academic-directory-20261128"
+        ]
+      }
+    },
+    {
+      "id": "polyu-cmi-yuting-hou",
+      "name": "Yuting Hou",
+      "universityId": "polyu",
+      "department": "Department of Construction Management and Intelligence",
+      "role": "助理教授",
+      "directoryRole": "助理教授",
+      "profileUrl": "https://www.polyu.edu.hk/cmi/people/academic-staff/dr-hou-yuting/",
+      "topics": [
+        "土木与机械工程"
+      ],
+      "researchKeywords": [
+        "交通与土地利用",
+        "交通规划",
+        "空间分析",
+        "Transport and land use",
+        "Transport planning",
+        "Spatial analysis"
+      ],
+      "summary": "研究包括交通与土地利用、交通规划、空间分析。",
+      "sourceIds": [
+        "polyu-cmi-academic-directory-20261128",
+        "polyu-cmi-yuting-hou-profile-20261129",
+        "polyu-cmi-yuting-hou-portal-20261129"
+      ],
+      "keywordSourceIds": [
+        "polyu-cmi-yuting-hou-profile-20261129"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/yuting-hou/",
+          "label": "港理工研究门户",
+          "parentSourceId": "polyu-cmi-yuting-hou-profile-20261129",
+          "sourceId": "polyu-cmi-yuting-hou-portal-20261129",
+          "bodyStatus": "body_read",
+          "readNote": "已查看校级个人档案。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募和名额待核",
+        "sourceIds": [
+          "polyu-cmi-academic-directory-20261128"
+        ]
+      }
+    },
+    {
+      "id": "polyu-cmi-michael-sing",
+      "name": "Michael C. P. Sing",
+      "universityId": "polyu",
+      "department": "Department of Construction Management and Intelligence",
+      "role": "助理教授",
+      "directoryRole": "助理教授",
+      "profileUrl": "https://www.polyu.edu.hk/cmi/people/academic-staff/dr-sing-chun-pong-michael/",
+      "topics": [
+        "土木与机械工程"
+      ],
+      "researchKeywords": [
+        "基础设施预测",
+        "施工劳动力规划",
+        "老化建筑评估",
+        "Infrastructure prediction",
+        "Construction workforce planning",
+        "Ageing building assessment"
+      ],
+      "summary": "研究包括基础设施预测、施工劳动力规划、老化建筑评估。",
+      "sourceIds": [
+        "polyu-cmi-academic-directory-20261128",
+        "polyu-cmi-michael-sing-profile-20261129",
+        "polyu-cmi-michael-sing-portal-20261129",
+        "polyu-cmi-michael-sing-personal-20261129"
+      ],
+      "keywordSourceIds": [
+        "polyu-cmi-michael-sing-profile-20261129"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/chun-pong-sing-2/",
+          "label": "港理工研究门户",
+          "parentSourceId": "polyu-cmi-michael-sing-profile-20261129",
+          "sourceId": "polyu-cmi-michael-sing-portal-20261129",
+          "bodyStatus": "body_read",
+          "readNote": "已查看校级个人档案。"
+        },
+        {
+          "url": "https://michaelcpsing.github.io/",
+          "label": "个人研究主页",
+          "parentSourceId": "polyu-cmi-michael-sing-profile-20261129",
+          "bodyStatus": "body_read",
+          "readNote": "已读基础设施预测与老化住宅评估的公开说明。",
+          "sourceId": "polyu-cmi-michael-sing-personal-20261129"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募和名额待核",
+        "sourceIds": [
+          "polyu-cmi-academic-directory-20261128"
+        ]
+      }
+    },
+    {
+      "id": "polyu-cmi-tanya-tan",
+      "name": "Tanya Zheng Tan",
+      "universityId": "polyu",
+      "department": "Department of Construction Management and Intelligence",
+      "role": "助理教授",
+      "directoryRole": "助理教授",
+      "profileUrl": "https://www.polyu.edu.hk/cmi/people/academic-staff/dr-tanya-zheng-tan/",
+      "topics": [
+        "土木与机械工程"
+      ],
+      "researchKeywords": [
+        "可持续城市规划",
+        "室外热舒适",
+        "老年友好城市",
+        "Sustainable urban planning",
+        "Outdoor thermal comfort",
+        "Age-friendly cities"
+      ],
+      "summary": "研究包括可持续城市规划、室外热舒适、老年友好城市。",
+      "sourceIds": [
+        "polyu-cmi-academic-directory-20261128",
+        "polyu-cmi-tanya-tan-profile-20261129",
+        "polyu-cmi-tanya-tan-portal-20261129"
+      ],
+      "keywordSourceIds": [
+        "polyu-cmi-tanya-tan-profile-20261129"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/zheng-tan/",
+          "label": "港理工研究门户",
+          "parentSourceId": "polyu-cmi-tanya-tan-profile-20261129",
+          "sourceId": "polyu-cmi-tanya-tan-portal-20261129",
+          "bodyStatus": "body_read",
+          "readNote": "已查看校级个人档案。"
+        },
+        {
+          "url": "https://www.lemonlab.me/",
+          "label": "LemonLab",
+          "parentSourceId": "polyu-cmi-tanya-tan-profile-20261129",
+          "bodyStatus": "not_read",
+          "readNote": "读取返回 HTTP 502，待官网恢复。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募和名额待核",
+        "sourceIds": [
+          "polyu-cmi-academic-directory-20261128"
+        ]
+      }
+    },
+    {
+      "id": "polyu-cmi-xingyu-tao",
+      "name": "Xingyu Tao",
+      "universityId": "polyu",
+      "department": "Department of Construction Management and Intelligence",
+      "role": "助理教授",
+      "directoryRole": "助理教授",
+      "profileUrl": "https://www.polyu.edu.hk/cmi/people/academic-staff/prof-tao-xingyu/",
+      "topics": [
+        "土木与机械工程"
+      ],
+      "researchKeywords": [
+        "建筑信息模型",
+        "施工机器人",
+        "人机协作",
+        "Building information modelling",
+        "Construction robotics",
+        "Human–robot collaboration"
+      ],
+      "summary": "研究包括建筑信息模型、施工机器人、人机协作。",
+      "sourceIds": [
+        "polyu-cmi-academic-directory-20261128",
+        "polyu-cmi-xingyu-tao-profile-20261129",
+        "polyu-cmi-xingyu-tao-portal-20261129"
+      ],
+      "keywordSourceIds": [
+        "polyu-cmi-xingyu-tao-profile-20261129"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/xingyu-tao/",
+          "label": "港理工研究门户",
+          "parentSourceId": "polyu-cmi-xingyu-tao-profile-20261129",
+          "sourceId": "polyu-cmi-xingyu-tao-portal-20261129",
+          "bodyStatus": "body_read",
+          "readNote": "已查看校级个人档案。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募和名额待核",
+        "sourceIds": [
+          "polyu-cmi-academic-directory-20261128"
+        ]
+      }
+    },
+    {
+      "id": "polyu-cmi-yue-teng",
+      "name": "Yue Teng",
+      "universityId": "polyu",
+      "department": "Department of Construction Management and Intelligence",
+      "role": "助理教授",
+      "directoryRole": "助理教授",
+      "profileUrl": "https://www.polyu.edu.hk/cmi/people/academic-staff/dr-teng-yue/",
+      "topics": [
+        "土木与机械工程"
+      ],
+      "researchKeywords": [
+        "建筑碳管理",
+        "预制建造",
+        "组装合成建筑",
+        "Construction carbon management",
+        "Prefabrication",
+        "Modular integrated construction"
+      ],
+      "summary": "研究包括建筑碳管理、预制建造、组装合成建筑。",
+      "sourceIds": [
+        "polyu-cmi-academic-directory-20261128",
+        "polyu-cmi-yue-teng-profile-20261129",
+        "polyu-cmi-yue-teng-portal-20261129",
+        "polyu-cmi-yue-teng-personal-20261129"
+      ],
+      "keywordSourceIds": [
+        "polyu-cmi-yue-teng-profile-20261129"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/yue-teng/",
+          "label": "港理工研究门户",
+          "parentSourceId": "polyu-cmi-yue-teng-profile-20261129",
+          "sourceId": "polyu-cmi-yue-teng-portal-20261129",
+          "bodyStatus": "body_read",
+          "readNote": "已查看校级个人档案。"
+        },
+        {
+          "url": "https://polyucmi.github.io/teng-web/index.html",
+          "label": "个人研究主页",
+          "parentSourceId": "polyu-cmi-yue-teng-profile-20261129",
+          "bodyStatus": "body_read",
+          "readNote": "已读建造过程碳管理、建造工业化与项目示例。",
+          "sourceId": "polyu-cmi-yue-teng-personal-20261129"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募和名额待核",
+        "sourceIds": [
+          "polyu-cmi-academic-directory-20261128"
+        ]
+      }
+    },
+    {
+      "id": "polyu-cmi-yiwei-weng",
+      "name": "Yiwei Weng",
+      "universityId": "polyu",
+      "department": "Department of Construction Management and Intelligence",
+      "role": "助理教授",
+      "directoryRole": "助理教授",
+      "profileUrl": "https://www.polyu.edu.hk/cmi/people/academic-staff/dr-weng-yiwei/",
+      "topics": [
+        "土木与机械工程"
+      ],
+      "researchKeywords": [
+        "施工增材制造",
+        "先进建造材料",
+        "自主施工机器人",
+        "Additive manufacturing in construction",
+        "Advanced construction materials",
+        "Autonomous construction robotics"
+      ],
+      "summary": "研究包括施工增材制造、先进建造材料、自主施工机器人。",
+      "sourceIds": [
+        "polyu-cmi-academic-directory-20261128",
+        "polyu-cmi-yiwei-weng-profile-20261129",
+        "polyu-cmi-yiwei-weng-portal-20261129"
+      ],
+      "keywordSourceIds": [
+        "polyu-cmi-yiwei-weng-profile-20261129"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/yiwei-weng/",
+          "label": "港理工研究门户",
+          "parentSourceId": "polyu-cmi-yiwei-weng-profile-20261129",
+          "sourceId": "polyu-cmi-yiwei-weng-portal-20261129",
+          "bodyStatus": "body_read",
+          "readNote": "已查看校级个人档案。"
+        },
+        {
+          "url": "https://wengyiwei.github.io/",
+          "label": "个人研究主页",
+          "parentSourceId": "polyu-cmi-yiwei-weng-profile-20261129",
+          "bodyStatus": "not_read",
+          "readNote": "读取返回 HTTP 404，待官方更新链接。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募和名额待核",
+        "sourceIds": [
+          "polyu-cmi-academic-directory-20261128"
+        ]
+      }
+    },
+    {
+      "id": "polyu-cmi-kelvin-heung",
+      "name": "Kelvin Holam Heung",
+      "universityId": "polyu",
+      "department": "Department of Construction Management and Intelligence",
+      "role": "研究助理教授",
+      "directoryRole": "研究助理教授",
+      "profileUrl": "https://www.polyu.edu.hk/cmi/people/academic-staff/dr-heung-holam-kelvin/",
+      "topics": [
+        "土木与机械工程"
+      ],
+      "researchKeywords": [
+        "可穿戴康复机器人",
+        "远程医疗",
+        "人机交互建模",
+        "Wearable rehabilitation robotics",
+        "Telemedicine",
+        "Human–robot interaction modelling"
+      ],
+      "summary": "研究包括可穿戴康复机器人、远程医疗、人机交互建模。",
+      "sourceIds": [
+        "polyu-cmi-academic-directory-20261128",
+        "polyu-cmi-kelvin-heung-profile-20261129"
+      ],
+      "keywordSourceIds": [
+        "polyu-cmi-kelvin-heung-profile-20261129"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募和名额待核",
+        "sourceIds": [
+          "polyu-cmi-academic-directory-20261128"
+        ]
+      }
+    },
+    {
+      "id": "polyu-cmi-jie-ma",
+      "name": "Jie Ma",
+      "universityId": "polyu",
+      "department": "Department of Construction Management and Intelligence",
+      "role": "研究助理教授",
+      "directoryRole": "研究助理教授",
+      "profileUrl": "https://www.polyu.edu.hk/cmi/people/academic-staff/dr-ma-jie/",
+      "topics": [
+        "土木与机械工程"
+      ],
+      "researchKeywords": [
+        "可穿戴感知",
+        "施工职业健康与安全",
+        "施工机器人",
+        "Wearable sensing",
+        "Construction occupational health and safety",
+        "Construction robotics"
+      ],
+      "summary": "研究包括可穿戴感知、施工职业健康与安全、施工机器人。",
+      "sourceIds": [
+        "polyu-cmi-academic-directory-20261128",
+        "polyu-cmi-jie-ma-profile-20261129"
+      ],
+      "keywordSourceIds": [
+        "polyu-cmi-jie-ma-profile-20261129"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募和名额待核",
+        "sourceIds": [
+          "polyu-cmi-academic-directory-20261128"
+        ]
+      }
+    },
+    {
+      "id": "polyu-cmi-abdul-hannan-qureshi",
+      "name": "Abdul Hannan Qureshi",
+      "universityId": "polyu",
+      "department": "Department of Construction Management and Intelligence",
+      "role": "研究助理教授",
+      "directoryRole": "研究助理教授",
+      "profileUrl": "https://www.polyu.edu.hk/cmi/people/academic-staff/dr-abdul-hannan-qureshi/",
+      "topics": [
+        "土木与机械工程"
+      ],
+      "researchKeywords": [
+        "施工过程监测",
+        "无损检测",
+        "基础设施与资产管理",
+        "Construction process monitoring",
+        "Non-destructive testing",
+        "Infrastructure and asset management"
+      ],
+      "summary": "研究包括施工过程监测、无损检测、基础设施与资产管理。",
+      "sourceIds": [
+        "polyu-cmi-academic-directory-20261128",
+        "polyu-cmi-abdul-hannan-qureshi-profile-20261129",
+        "polyu-cmi-abdul-hannan-qureshi-portal-20261129"
+      ],
+      "keywordSourceIds": [
+        "polyu-cmi-abdul-hannan-qureshi-profile-20261129"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/abdul-hannan-qureshi/",
+          "label": "港理工研究门户",
+          "parentSourceId": "polyu-cmi-abdul-hannan-qureshi-profile-20261129",
+          "sourceId": "polyu-cmi-abdul-hannan-qureshi-portal-20261129",
+          "bodyStatus": "body_read",
+          "readNote": "已查看校级个人档案。"
         }
       ],
       "availability": {
