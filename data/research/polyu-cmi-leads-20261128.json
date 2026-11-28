@@ -408,15 +408,21 @@
       "url": "https://sites.google.com/view/yingfan",
       "title": "Ying Fan · 个人研究主页",
       "checkedAt": "2026-11-28",
-      "readMethod": "web_tool_actual_body",
-      "evidenceLevel": "public_personal_body_read",
+      "readMethod": "web_reader",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
       "scope": "港理工学系主页提供的个人研究主页。",
       "claims": [
         "自述研究包括城市经济、房地产经济及经济政策。"
       ],
       "knownIssues": [
         "个人页保留较早职称与旧系名。所列招募入口尚未核适用学年或开放状态。"
-      ]
+      ],
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "0a440cd6d57b74bfe82e424ef725149f1a6c6c1822c738014fbbecf92a3c03a9",
+      "parentSourceId": "polyu-cmi-ying-fan-profile-20261128",
+      "originalUrl": "https://sites.google.com/view/yingfan",
+      "retrievedUrl": "https://sites.google.com/view/yingfan"
     },
     {
       "checkedAt": "2026-11-28",
